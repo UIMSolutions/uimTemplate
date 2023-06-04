@@ -1,1 +1,1 @@
-# libTemplate
+# Library 📚 uim-myname
