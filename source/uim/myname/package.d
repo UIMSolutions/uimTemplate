@@ -7,6 +7,7 @@ public { // required uim libraries
 
 public { // myname packages
   import uim.myname.classes;
+  import uim.myname.exceptions;
   import uim.myname.interfaces;
   import uim.myname.helpers;
   import uim.myname.mixins;
