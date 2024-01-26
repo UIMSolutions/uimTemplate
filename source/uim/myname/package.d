@@ -1,6 +1,13 @@
 module uim.myname;
 
-public { // required uim libraries
+mixin(ImportPhobos!());
+
+// Dub
+public {
+	import vibe.d;
+}
+
+public { // uim libraries
   import uim.core;
   import uim.oop;
 }
