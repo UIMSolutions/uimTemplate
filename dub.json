@@ -7,6 +7,12 @@
 	],
 	"copyright": "Copyright © 2015-2024, Ozan Nurettin Süel",	
 	"license": "Apache-2.0",
+	"targetType": "library",
+	"dependencies": {
+		"colored": "~>0.0.31",
+		"vibe-d": "~>0.9.7",
+		"uim": "~>24.1.1"
+	},
 	"configurations": [
 		{
 			"name": "offline",
@@ -19,20 +25,5 @@
 				"test_uim_myname"
 			]
 		}
-	],
-	"dependencies": {
-		"colored": "~>0.0.31",
-		"vibe-d": "~>0.9.7"
-	},
-	"importPaths": [
-		"../../LIBS/uim-core",
-		"../../LIBS/uim-oop",
-		"./"
-	],
-	"sourcePaths": [
-		"../../LIBS/uim-core",
-		"../../LIBS/uim-oop",
-		"./"
-	],
-	"targetType": "library"
+	]
 }
